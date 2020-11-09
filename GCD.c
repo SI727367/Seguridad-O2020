@@ -19,5 +19,6 @@ int main()
         
     }
     printf("GCD = %d",n1);
+    
     return 0;
 }
