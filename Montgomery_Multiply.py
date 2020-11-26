@@ -1,6 +1,6 @@
-A = 15
-B = 17
-N = 5
+A = int(input("Ingrese el primer numero\n ~>))
+B = int(input("Ingrese el segundo numero\n ~>))
+N = int(input("Ingrese el modulo\n ~>))
 n = N.bit_length()
 
 R = 0
