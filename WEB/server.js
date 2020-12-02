@@ -10,10 +10,19 @@ const fs     = require('fs');
 let salt
 let nonce
 
+let T_T = "Textos"
+
 app.get('/',(req, res) =>{
     res.sendFile('/index.html', {root: __dirname});
 });
-
+fs.readdir(T_T, (err, files) =>{
+  if(err){
+      throw err;
+  }
+  files.forEach(file => {
+   alert(file);
+  });
+});
 app.post('/enviar', upload.single('archivo'), (req, res) =>
 {
     alert('Su archivo de texto ha sido subido exitosamente');
@@ -49,14 +58,6 @@ app.post('/cifrar', (req, res)=>{
 
 app.post('/decifrar', (req, res)=>{
     let password = "ElJeviestkubwe";
-/*let salt = new Uint8Array([240,  45, 201, 77, 133,
-  227, 227, 148, 57, 175,
-   99, 120, 152, 18, 231,
-   50]);
-let nonce = new Uint8Array([  30, 152, 161, 173, 160, 186,
-  175, 197, 228, 136,  25, 159,
-   88,  96, 228, 126, 213,  23,
-  117, 110, 114, 245, 233, 246]);*/
 
 var texto = fs.readFileSync('./Textos/contrasenas.txt', 'utf-8');
 let N = 16384;
@@ -80,7 +81,3 @@ else{
 });
 
 app.listen(5000, () => console.log('Servidor en Llínea'));
-
-
-
-
