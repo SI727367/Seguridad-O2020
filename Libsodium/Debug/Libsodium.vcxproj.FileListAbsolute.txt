@@ -1,0 +1,4 @@
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Debug\Libsodium.exe
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Debug\Libsodium.pdb
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Debug\Libsodium.vcxproj.CopyComplete
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Debug\libsodium.dll

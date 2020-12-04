@@ -1,0 +1,7 @@
+﻿  Source.c
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Source.c(15,15): warning C4244: 'return': conversión de 'unsigned __int64' a 'int'; posible pérdida de datos
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Source.c(27,14): warning C4244: 'return': conversión de 'unsigned __int64' a 'int'; posible pérdida de datos
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Source.c(45,39): warning C4047: '=': 'FILE *' es distinto en los niveles de direccionamiento indirecto de 'errno_t'
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Source.c(48,34): warning C4477: 'snprintf' : la cadena de formato '%c' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'FILE *'
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Source.c(42,7): warning C4101: 'linea': variable local sin referencia
+  Libsodium.vcxproj -> C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Libsodium\Debug\Libsodium.exe
