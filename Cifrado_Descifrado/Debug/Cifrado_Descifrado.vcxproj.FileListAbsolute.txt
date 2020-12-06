@@ -1,0 +1,4 @@
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Cifrado_Descifrado\Debug\Cifrado_Descifrado.vcxproj.CopyComplete
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Cifrado_Descifrado\Debug\Cifrado_Descifrado.exe
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Cifrado_Descifrado\Debug\Cifrado_Descifrado.pdb
+C:\Users\Jonathan\OneDrive - ITESO\- Semestre 3\Cripto\Seguridad-O2020\Cifrado_Descifrado\Debug\libsodium.dll
