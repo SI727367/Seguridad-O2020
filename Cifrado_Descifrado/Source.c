@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
     dump_hex_buff(nonce, sizeof nonce);
 
     int O;
-    printf("1) Cifrar\n2) VDescifrar\n0) Cerrar\n ~>");
+    printf("1) Cifrar\n2) Descifrar\n0) Cerrar\n ~>");
     scanf_s("%d", &O);
 
     while (1) {
@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
             break;
         }
 
-        printf("1) Cifrar\n2) VDescifrar\n0) Cerrar\n ~>");
+        printf("1) Cifrar\n2) Descifrar\n0) Cerrar\n ~>");
         scanf_s("%d", &O);
     }
    
